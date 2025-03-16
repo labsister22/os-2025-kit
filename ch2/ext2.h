@@ -8,7 +8,7 @@
 #include "../stdlib/stdtype.h"
 
 
-/* -- IF2230 File System constants -- */
+/* -- IF2130 File System constants -- */
 #define BOOT_SECTOR 0 // legacy from FAT32 filesystem IF2130 OS
 #define DISK_SPACE 4194304u // 4MB disk space (because our disk or storage.bin is 4MB)
 #define EXT2_SUPER_MAGIC 0xEF53 // this indicating that the filesystem used by OS is ext2
